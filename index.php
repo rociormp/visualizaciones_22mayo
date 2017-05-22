@@ -66,17 +66,17 @@ $all = count($estudiantes);
     <th>Región Metropolitana</th>
     <th>Otras Regiones</th>
   </tr>
-<?php for($c=0; $c < $all; $c++){?>
+<?php for($c=6; $c < 6; $c++){?>
   <tr>
-    <td><?php echo$estudiantes[$c]["year"]?></td>
-    <td><?php echo$estudiantes[$c]["ingreso_total_menores_18"]?></td>
-    <td><?php echo$estudiantes[$c]["ingreso_total_18_21"]?></td>
-    <td><?php echo$estudiantes[$c]["ingreso_total_21_25"]?></td>
-    <td><?php echo$estudiantes[$c]["ingreso_total_mayores_25"]?></td>
-    <td><?php echo$estudiantes[$c]["ingreso_total_mujeres"]?></td>
-    <td><?php echo$estudiantes[$c]["ingreso_total_hombres"]?></td>
-    <td><?php echo$estudiantes[$c]["ingreso_total_metropolitana"]?></td>
-    <td><?php echo$estudiantes[$c]["ingreso_total_regiones"]?></td>
+    <td><?php echo$estudiantes[6]["year"]?></td>
+    <td><?php echo$estudiantes[6]["ingreso_total_menores_18"]?></td>
+    <td><?php echo$estudiantes[6]["ingreso_total_18_21"]?></td>
+    <td><?php echo$estudiantes[6]["ingreso_total_21_25"]?></td>
+    <td><?php echo$estudiantes[6]["ingreso_total_mayores_25"]?></td>
+    <td><?php echo$estudiantes[6]["ingreso_total_mujeres"]?></td>
+    <td><?php echo$estudiantes[6]["ingreso_total_hombres"]?></td>
+    <td><?php echo$estudiantes[6]["ingreso_total_metropolitana"]?></td>
+    <td><?php echo$estudiantes[6]["ingreso_total_regiones"]?></td>
   </tr>
 <?php };?>
 </table>
